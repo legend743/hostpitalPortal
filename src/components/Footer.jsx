@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer className="bg-blue-500 text-white py-6">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gray-300 text-white py-6">
+      <div className=" mx-auto px-4">
         {/* Top Section: Contact Information */}
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           {/* About Us */}
@@ -62,7 +62,7 @@ function Footer() {
             &copy; {new Date().getFullYear()} Our Hospital. All Rights Reserved.
           </p>
           <p>
-            Designed with ❤️ by <span className="font-bold">Your Team</span>.
+            Designed with ❤️ by <span className="font-bold">faisal</span>.
           </p>
         </div>
       </div>

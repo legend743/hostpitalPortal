@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from '../components/Carousel'
-import hospitalBuilding from "../assets/HospitalBuilding.jpg";
+import hospitalBuilding from "../assets/HospitalBuilding_enhanced.jpg";
 import doctorPatientImage from "../assets/groupPhoto.jpg";
 import doctorstethoscope from "../assets/groupPhoto2.jpg";
 
@@ -12,7 +12,7 @@ function Home() {
     
       <>
   
-    {/* <img className="w-full h-full object-cover" src={doctorPatientImage} alt="Modern Hospital Facilities" /> */}
+
  
     
       {/* Hero Section (Carousel) */}
