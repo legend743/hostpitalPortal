@@ -1,6 +1,7 @@
 import React from 'react'
 import Docter1 from '../assets/Doct.jpg'
 import Doctor2 from '../assets/doct2.jpg'
+import Footer from '../components/Footer';
 
 
 function Doctors() {
@@ -11,36 +12,38 @@ function Doctors() {
         name: "Dr. John Doe",
         specialty: "Cardiologist",
         experience: "10+ years",
-        image: Docter1, // Replace with actual image URL
+        image: Docter1,
       },
       {
         id: 2,
         name: "Dr. Jane Smith",
         specialty: "Pediatrician",
         experience: "8+ years",
-        image:Doctor2, // Replace with actual image URL
+        image:Doctor2, 
       },
       {
         id: 3,
         name: "Dr. Emily Johnson",
         specialty: "Orthopedic Surgeon",
         experience: "12+ years",
-        image: "https://via.placeholder.com/150", // Replace with actual image URL
+        image: Docter1,
       },
       // Add more doctors here
     ];
   
     return (
-      <div className="w-full min-h-screen bg-gray-50">
-        {/* Header Section */}
-        <section className="bg-blue-600 text-white py-8">
-          <div className="container mx-auto text-center">
-            <h1 className="text-4xl font-bold mb-4">Meet Our Doctors</h1>
-            <p className="text-lg">
-              Our team of highly skilled doctors is dedicated to providing you with the best care possible.
-            </p>
-          </div>
-        </section>
+
+<>      <div className="mx-auto text-center mt-20">
+      <h1 className="text-4xl font-bold mb-4">Meet Our Doctors</h1>
+      <p className="text-lg">
+        Our team of highly skilled doctors is dedicated to providing you with the best care possible.
+      </p>
+    </div>
+      <div className="w-full h-screen bg-gray-50 pt-10">
+    
+        {/* <section className="bg-amber-600 text-white py-8"> */}
+         
+   
   
         {/* Doctors List Section */}
         <section className="py-12">
@@ -65,6 +68,9 @@ function Doctors() {
           </div>
         </section>
       </div>
+      <Footer/>
+      </>
+
     );
   
 }
