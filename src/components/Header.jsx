@@ -77,11 +77,11 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="/deparment"
+                href="/gallery"
                 className="text-yellow-100 hover:underline flex items-center space-x-2"
               >
                 <FaClinicMedical size={16} className="text-black"/>
-                <span className="text-gray-400" >Department</span>
+                <span className="text-gray-400" >Gallery</span>
                 
               </a>
             </li>
